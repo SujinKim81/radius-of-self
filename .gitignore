@@ -1,0 +1,19 @@
+.DS_Store
+
+# Local-only design reference. Do not deploy or publish.
+reference/
+
+# Local caches and generated interpreter files.
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Local editor and environment files.
+.vscode/
+.idea/
+.env
+.env.*
+
+# Build output, in case a local tool creates it.
+dist/
+build/
