@@ -150,7 +150,7 @@ p.big,
 
 .essay-photo {
   margin: 2.6rem auto 3.2rem;
-  max-width: min(100%, 520px);
+  max-width: min(100%, 480px);
 }
 
 .essay-photo img {
