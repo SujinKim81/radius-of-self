@@ -4,11 +4,6 @@ on:
   schedule:
     # 한국시간 화·목·토 15:30
     - cron: "30 6 * * 2,4,6"
-  push:
-    branches:
-      - main
-    paths:
-      - ".github/workflows/generate-person.yml"
   workflow_dispatch:
 
 permissions:
