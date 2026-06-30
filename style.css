@@ -139,12 +139,68 @@ p.big,
   margin-bottom: 0.75rem;
 }
 
+.essay-intro,
+.lede {
+  font-size: 1.12rem;
+}
+
+.essay-intro {
+  color: var(--c-muted);
+}
+
+.essay-photo {
+  margin: 2.6rem 0 3.2rem;
+}
+
+.essay-photo img {
+  display: block;
+  width: min(100%, 680px);
+  height: auto;
+  border: 1px solid var(--c-line);
+}
+
+.essay-photo figcaption {
+  border-left: 2px solid var(--c-highlight-1);
+  color: var(--c-muted);
+  font-size: 0.92rem;
+  line-height: 1.75;
+  margin-top: 1rem;
+  padding-left: 1rem;
+}
+
 .essay-body {
   margin-top: 2.6rem;
 }
 
 .essay-body p {
   margin-bottom: 1.25rem;
+}
+
+.essay-body section {
+  margin-bottom: 3rem;
+}
+
+.essay-body h2 {
+  border-top: 1px solid var(--c-line);
+  color: var(--c-highlight-1);
+  font-size: 1.35rem;
+  margin-bottom: 1.2rem;
+  padding-top: 1.2rem;
+}
+
+blockquote {
+  border-left: 2px solid var(--c-highlight-2);
+  color: var(--c-highlight-1);
+  font-size: 1.18rem;
+  line-height: 1.75;
+  margin: 2rem 0;
+  padding-left: 1.2rem;
+}
+
+.info-box {
+  border-top: 1px solid var(--c-line);
+  margin-top: 3rem;
+  padding-top: 1.3rem;
 }
 
 .essay-note,
